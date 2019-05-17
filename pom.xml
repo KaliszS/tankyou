@@ -7,6 +7,15 @@
     <groupId>groupId</groupId>
     <artifactId>tankyou</artifactId>
     <version>1.0-SNAPSHOT</version>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <mainClass>sample.Main</mainClass>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    
+ 
 
     
 </project>

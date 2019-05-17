@@ -1,20 +1,20 @@
+package sample;
+import javafx.scene.shape.Rectangle;
+import javafx.scene.paint.Color;
 
+public class Brick extends Rectangle{
 
-/**
- * @author kaliszs
- * @version 1.0
- * @created 12-maj-2019 21:06:39
- */
-public class Brick {
+	private int Speed=5;
 
-	private String Color;
-	private int Size;
-	private int Speed;
-
-	public Brick(){
-
+	public Brick(int x, int y,int width, int height, Color color ){
+            super(width, height, color);
+            setTranslateX(x);
+            setTranslateY(y);
 	}
-
+        
+        void MoveDown(){
+           setTranslateY(getTranslateY()+50);
+        }
 	public void finalize() throws Throwable {
 
 	}
